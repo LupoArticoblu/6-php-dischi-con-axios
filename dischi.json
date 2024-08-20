@@ -1,0 +1,101 @@
+[
+  {
+    "title": "New Jersey",
+    "author": "Bon Jovi",
+    "year": "1988",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "Ten summoner's tales",
+    "author": "Sting",
+    "year": "1993",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "Meteora20",
+    "author": "Linkin Park",
+    "year": "2003",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/91IeSPeDz9L.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "One more car, one more rider",
+    "author": "Eric Clapton",
+    "year": "2002",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "Kind of Blue",
+    "author": "Miles Davis",
+    "year": "1959",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/71XKyRlFSlL.jpg",
+    "genre": "Jazz"
+  },
+  {
+    "title": "Thriller",
+    "author": "Michael Jackson",
+    "year": "1982",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/81ogsUqshzL.jpg",
+    "genre": "Pop"
+  },
+  {
+    "title": "Back in Black",
+    "author": "AC/DC",
+    "year": "1980",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/61sJIfuUSiL.jpg",
+    "genre": "Hard Rock"
+  },
+  {
+    "title": "Abbey Road",
+    "author": "The Beatles",
+    "year": "1969",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/81Q7HZYO1rL.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "The Dark Side of the Moon",
+    "author": "Pink Floyd",
+    "year": "1973",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/41UUPbY35tL.jpg",
+    "genre": "Progressive Rock"
+  },
+  {
+    "title": "Rumours",
+    "author": "Fleetwood Mac",
+    "year": "1977",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/71HWqbh0BLL.jpg",
+    "genre": "Soft Rock"
+  },
+  {
+    "title": "Ready to Die",
+    "author": "The Notorious B.I.G.",
+    "year": "1994",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/31L536r-8xL.jpg",
+    "genre": "Hip Hop"
+  },
+  {
+    "title": "Appetite for Destruction",
+    "author": "Guns N' Roses",
+    "year": "1987",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/71H9ZR6EGFL.jpg",
+    "genre": "Hard Rock"
+  },
+  {
+    "title": "21",
+    "author": "Adele",
+    "year": "2011",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/61lMwNQGYbL.jpg",
+    "genre": "Soul"
+  },
+  {
+    "title": "Born to Die",
+    "author": "Lana Del Rey",
+    "year": "2012",
+    "poster": "https://images-na.ssl-images-amazon.com/images/I/61yBfQe99-L.jpg",
+    "genre": "Indie Pop"
+  }
+
+]
