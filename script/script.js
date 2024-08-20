@@ -5,8 +5,8 @@ createApp({
     return {
       apiUrl: 'server.php',
       discs: [],
-      singleDisc: {}
-      
+      singleDisc: {},
+      showModal: false
     }
   },
 
@@ -30,6 +30,7 @@ createApp({
         .get(this.apiUrl, {params})
         .then(response => {
           this.singleDisc = response.data;
+          this.showModal = true;
           console.log(this.singleDisc);
           
         })

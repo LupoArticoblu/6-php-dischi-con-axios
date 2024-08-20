@@ -23,7 +23,7 @@
       <div class="container" id="main-container">
         <div id="album-container"> 
         <!--disco-->
-          <div v-for="(disc, index) in discs" 
+          <div v-for="(disc, index) in discs" :key="index" 
           @click="openModal(index)"
           class="disc">
             <img :src="disc.poster" :alt="disc.title" alt="new-jersey">
@@ -33,15 +33,15 @@
         </div>
 
         <!-- modal dettaglio-->
-        <div id="modal-container">
+        <div v-if="showModal" id="modal-container">
           <div class="disc single-disc">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="new-jersey">
-            <h2>New Jersey</h2>
-            <small>Bon Jovi</small>
-            <small>1988</small>
-            <strong>Rock</strong>
+            <img :src="singleDisc.poster" :alt="singleDisc.title">
+            <h2>{{singleDisc.title}}</h2>
+            <small>{{singleDisc.author}}</small>
+            <small>{{singleDisc.year}}</small>
+            <strong>{{singleDisc.genre}}</strong>
             <div class="btn-container">
-              <button class="close-btn">X</button> 
+              <button @click="showModal = false" class="close-btn">X</button> 
             </div>
           </div>
         </div>
