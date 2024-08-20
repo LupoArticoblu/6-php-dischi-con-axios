@@ -4,7 +4,8 @@ createApp({
   data() {  
     return {
       apiUrl: 'server.php',
-      discs: []
+      discs: [],
+      singleDisc: {}
       
     }
   },
@@ -14,12 +15,28 @@ createApp({
       axios
         .get(this.apiUrl)
         .then((response) => {
-          console.log(response.data);
           this.discs = response.data;
+          console.log(this.discs);
         })
         .catch((error) => {
           console.log(error);
         });
+    },
+    openModal(index) {
+      const params = {
+        discIndex: index
+      }
+      axios
+        .get(this.apiUrl, {params})
+        .then(response => {
+          this.singleDisc = response.data;
+          console.log(this.singleDisc);
+          
+        })
+        .catch(error => {
+          console.log(error);
+        }
+      )
     }
   },
   

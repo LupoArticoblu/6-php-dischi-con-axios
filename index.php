@@ -23,14 +23,16 @@
       <div class="container" id="main-container">
         <div id="album-container"> 
         <!--disco-->
-          <div v-for="(disc, index) in discs" class="disc">
+          <div v-for="(disc, index) in discs" 
+          @click="openModal(index)"
+          class="disc">
             <img :src="disc.poster" :alt="disc.title" alt="new-jersey">
             <h2>{{disc.title}}</h2>
             <small>{{disc.author}}</small>
           </div>
         </div>
 
-        <!-- modal dettaglio
+        <!-- modal dettaglio-->
         <div id="modal-container">
           <div class="disc single-disc">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="new-jersey">
@@ -43,7 +45,7 @@
             </div>
           </div>
         </div>
-        -->
+        
 
       </div>
     </main>  
