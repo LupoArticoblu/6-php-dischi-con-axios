@@ -16,6 +16,13 @@
         <div class="left-header">
           <img src="https://pluspng.com/img-png/spotify-logo-png-open-2000.png" alt="Spotify logo">
         </div>
+
+        <div class="right-header">
+          <select name="genere" id="genre-select" v-model="selectedGenre" @change="filterDiscs">
+            <option value="All">All</option>
+            <option v-for="genre in genres" :key="genre" :value="genre">{{ genre }}</option>
+          </select>
+        </div>
       </div>
     </header>
 
@@ -23,12 +30,10 @@
       <div class="container" id="main-container">
         <div id="album-container"> 
         <!--disco-->
-          <div v-for="(disc, index) in discs" :key="index" 
-          @click="openModal(index)"
-          class="disc">
-            <img :src="disc.poster" :alt="disc.title" alt="new-jersey">
-            <h2>{{disc.title}}</h2>
-            <small>{{disc.author}}</small>
+          <div v-for="(disc, index) in filteredDiscs" :key="index" @click="openModal(index)" class="disc">
+            <img :src="disc.poster" :alt="disc.title">
+            <h2>{{ disc.title }}</h2>
+            <small>{{ disc.author }}</small>
           </div>
         </div>
 
